@@ -1,0 +1,93 @@
+# ---------- OS / Editor noise ----------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.cache
+.mypy_cache/
+.ruff_cache/
+.pyright_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------- Project: wiki + tools ----------
+# Lint / health reports (regenerable)
+wiki/health-report.md
+wiki/lint-report.md
+
+# Graph artifacts (regenerable via tools/build_graph.py)
+graph/graph.json
+graph/graph.html
+
+# markitdown / auto-conversion scratch
+tmp/
+.markitdown-cache/
+
+# Local env / secrets
+.env
+.env.local
+.env.*.local
+.envrc
+*.pem
+*.key
+
+# Logs / runtime
+*.log
+*.pid
+*.pid.lock
+nohup.out
+
+# Misc
+*.bak
+*.tmp
+*.orig
