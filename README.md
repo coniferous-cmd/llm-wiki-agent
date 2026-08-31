@@ -336,15 +336,4 @@ python tools/file_to_md.py --input_dir raw/imports/ --delete_source  # 删除原
 
 NetworkX + Louvain + Claude + vis.js。无服务器、无数据库,完全本地运行。一切都是纯 Markdown 文件。
 
-## 相关项目
-
-- [graphify](https://github.com/safishamsi/graphify) — 基于图的知识抽取技能(图层的灵感来源)
-- [Vannevar Bush 的 Memex(1945)](https://en.wikipedia.org/wiki/Memex) — 这一愿景的最初原型
-
-## Star 历史
-
-[![Star History Chart](https://api.star-history.com/svg?repos=SamurAIGPT/llm-wiki-agent&type=Date)](https://star-history.com/#SamurAIGPT/llm-wiki-agent&Date)
-
-## 许可证
-
-MIT License —— 详见 [LICENSE](LICENSE)。
+---
